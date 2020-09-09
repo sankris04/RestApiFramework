@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RestFrameWork">
+<test name="Rest Assured Test">
+<listeners>
+	<listener class-name="com.san.utilities.Listeners" />
+</listeners>
+<classes>
+
+<class name="com.san.testcases.TC001_Get_All_Employees" />
+			<class name="com.san.testcases.TC002_Get_Single_Employee_Record" />
+			<class name="com.san.testcases.TC003_Post_Employee_Record" />
+			<class name="com.san.testcases.TC004_Put_Employee_Record" />
+			<class name="com.san.testcases.TC005_Delete_Employee_Record" />
+
+</classes>
+
+
+</test>
+
+</suite>
